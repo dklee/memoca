@@ -1,0 +1,9 @@
+%% This is generated from src/memoca.app.src
+{application, memoca,
+ [{description, "MemoCa derived from mochiglobal in MochiMedia Web Server"},
+  {vsn, "2.3.2"},
+  {modules, []},
+  {registered, []},
+  {env, []},
+  {applications, [kernel, stdlib,
+                  compiler, syntax_tools]}]}.

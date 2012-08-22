@@ -23,7 +23,3 @@ build_plt:
 
 dialyzer:
 	@$(REBAR) dialyze
-
-app:
-	@$(REBAR) create template=mochiwebapp dest=$(DEST) appid=$(PROJECT)
-
